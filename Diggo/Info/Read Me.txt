@@ -1,0 +1,8 @@
+Pytcraft is a minecraft based picture program to help teach kids to code!
+
+Includes:
+
+dumbmenu module
+PyLaunch
+PyLaunch API
+PyLaunch API Docs

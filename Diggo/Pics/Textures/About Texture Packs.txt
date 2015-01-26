@@ -1,0 +1,9 @@
+How to add a texture:
+
+1. Put a folder of Your Textures in the Textures file
+2. Open PyLaunch1000.py
+3. Press enter when it asks you if you want to add a texture
+4. It will ask you one by one the texture
+5. Type in each one Pics/Textures/<your texture file name>/<your picture>.png
+
+YOU DO NOT HAVE TO DO .PNG BUT, IT WORKS BEST!
