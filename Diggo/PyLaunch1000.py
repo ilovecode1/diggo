@@ -16,21 +16,6 @@ except:
     time.sleep(2)
     sys.exit()
 
-def idleorcommandline():
-   'If idleorcommandline returns True its IDLE if False its command line!'
-   a = sys.executable
-   m = '\\'
-   m = m[0]
-   while True:
-       b = len(a)
-       c = a[(b - 1)]
-       if c == m:
-           break
-       a = a[:(b - 1)]
-   if sys.executable == a + 'pythonw.exe':
-       return True
-   else:
-       return False
 
 def osfinder():
    'returns os name'
@@ -60,28 +45,7 @@ def game():
    time.sleep(1)
    print("Warning if there is a code problem game will not start!")
    time.sleep(3)
-   os = osfinder()
-   if os == "posix":
-       print("OS name posix.")
-       time.sleep(2)
-       
-   elif os == ("nt"):
-       print("OS name nt")
-       time.sleep(2)
-
-   elif os == ("dos"):
-       print("OS name dos")
-       time.sleep(2)
-       
-   elif os == ("ce"):
-       print("OS name ce")
-       time.sleep(2)
-
-   else:
-       print("Your OS does not work with Pylaunch 1.0 nor Diggo!")
-       time.sleep(3)
-       sys.exit()
-
+ 
    if (DIRT == 0):
        if (GRASS == 1):
            if (WATER == 2):
