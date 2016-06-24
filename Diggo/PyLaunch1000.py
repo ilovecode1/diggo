@@ -37,12 +37,6 @@ def game():
 
    print("Activating PyLaunch 1.0...")
    time.sleep(2)
-   ioc = idleorcommandline()
-   if ioc == True:
-       print('Running in Python IDLE but, Diggo works best in terminal!')
-   else:
-       print('Running in Command line')
-   time.sleep(1)
    print("Warning if there is a code problem game will not start!")
    time.sleep(3)
  
