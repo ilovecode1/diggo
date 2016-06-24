@@ -22,12 +22,13 @@ def read():
     except ImportError:
         print("Module random does not exist!")
         sys.exit()
-   
+  
     try:
-         import tkinter
+        # for Python2
+        from Tkinter import *   ## notice capitalized T in Tkinter 
     except ImportError:
-        print("Module tkinter does not exist!")
-        sys.exit()
+        # for Python3
+        from tkinter import *
     try:
         import dumbmenu
     except ImportError:
